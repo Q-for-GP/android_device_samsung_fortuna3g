@@ -4,6 +4,9 @@ $(call inherit-product-if-exists, vendor/samsung/fortuna3g/fortuna3g-vendor.mk)
 # Inherit from common
 $(call inherit-product, device/samsung/gprimelte-common/device-common.mk)
 
+# Inherit from common
+$(call inherit-product, build/target/products/go_defaults)
+
 LOCAL_PATH := device/samsung/fortuna3g
 
 # System properties
